@@ -28,7 +28,7 @@
 
   .content {
     width: 80%;
-    margin: 10px auto 0px auto;
+    margin: 20px auto 0px auto;
   }
 
   .work-item {
@@ -49,14 +49,14 @@
 }
 
 @media screen and (min-width: 651px) and (max-width: 1000px) {
-  main, .header-inner, .content {
+  main, .header-inner, .footer-inner, .content {
     width: 600px;
     margin: 20px auto 0px auto;
   }
 }
 
 @media screen and (min-width: 1001px) {
-  main, .header-inner, .content {
+  main, .header-inner, .footer-inner, .content {
     width: 900px;
     margin: 30px auto 0px auto;
   }

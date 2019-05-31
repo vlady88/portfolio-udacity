@@ -55,11 +55,14 @@ ul {
   text-align: right;
 }
 
-.header-inner {
+.header-inner, .footer-inner {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
+}
+
+.header-inner {
   border-bottom: solid #7d97ad;
 }
 
@@ -96,7 +99,7 @@ ul {
 .hero {
   width: 100%;
   position: relative;
-  background-image: url("./images/cover.jpg");
+  background-image: url("../images/cover.jpg");
   background-size: cover;
   min-height: 300px;
 }
@@ -107,11 +110,11 @@ ul {
 
 .featured-work {
   width: 100%;
-  margin-top: 3em;
+  margin-top: 1.5em;
 }
 
 .work-container {
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 .work-item {
@@ -158,10 +161,9 @@ ul {
  *
  */
 
-footer {
+.footer-inner {
   border-top: 1px solid #E0E0E0;
-  padding: 1em;
-  width: 100%;
+  padding-top: 1.5em;
 }
 
 footer li {
@@ -174,3 +176,4 @@ footer a {
   color: #333;
   padding: 1.5em;
 }
+
